@@ -61,5 +61,8 @@ else
 	echo "invalid url arg"
 fi
 
+export EXECUTIONS_DATA_PRUNE=true
+export EXECUTIONS_DATA_MAX_AGE=24
+
 # kickstart nodemation
 n8n
